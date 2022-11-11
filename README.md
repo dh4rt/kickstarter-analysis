@@ -20,7 +20,7 @@ in the way of useable analysis, with chart that had flipped axis, more tuning ne
 Conversion got put into the right spots in Columns and Rows respectively. With the Parent Category and Years being used as
 the filters I was able to successfully create a meaningful table with a correspondingly useful graph. Seen below:
 
-![This is an image that shows the outcomes of Kickstarter campaigns based on the month that they are launched] (https://github.com/dh4rt/kickstarter-analysis/blob/main/Theater_Outcomes_vs_Launch.png)
+![This is an image that shows the outcomes of Kickstarter campaigns based on the month that they are launched] (Theater_Outcomes_vs_Launch.png)
 
 This graph indicates a number of trends that should be considered when launching a campaign.  The absolute worst month to
 start a campaign are the months of November and December. The reasons for this are not totally clear but I believe it is a 
@@ -48,15 +48,15 @@ Eventually what I did when I was able to get the Number Successful column workin
 table and adjust for Failed and Canceled while still having the coding for the different tiers still be and operational. This
 image can be seen below:
 
-![This image shows a graph depicting the percentage chance of success, failure, and cancelation of a Kickstarter campaign based on the financial goals] (https://github.com/dh4rt/kickstarter-analysis/blob/main/Outcomes_vs_Goals.png)
+![This image shows a graph depicting the percentage chance of success, failure, and cancelation of a Kickstarter campaign based on the financial goals] (Outcome_vs_Goals.png)
 
 This graph indicates a very shaky at best correlation between the financial goals and the likelihood of the campaign’s success.
-The first-tier goal `<$1000` has the highest rate of success at 76% with $1000-$5000 having the second highest success rate at
+The first-tier goal <$1000 has the highest rate of success at 76% with $1000-$5000 having the second highest success rate at
 73% and those are both good rates of success that should be considered. The problem is that from there the rates of success
 largely plummet dropping to low of 20% rate of success at the $25000-$29999 range only to shoot up and plateau to a success
 rate of 67% for $35000-$39999 and $40000-$44999. From there your likelihood of success is nil, the next two tiers, the two
 highest for the record having a combined rate of success at 13%. So, what this data tells us is that plays have two sweet spots
-for success `<$5000' and between `$35000-$45000' beyond that plays are a really risky venture for folks to use as their cause.
+for success <$5000 and between $35000-$45000 beyond that plays are a really risky venture for folks to use as their cause.
 I genuinely don’t know what the cause for this is and because the data is so up and down, the rate of success looks more like a
 roller coaster than an ideal Kickstarter strategy. Some of the returns are genuinely baffling, the rate of success for campaigns
 between $20000-$34999 is less than 50% but for some reason between $35000-$44999 the likelihood of success then jumps by more 
@@ -84,7 +84,7 @@ When you want to launch your campaign can make your success more likely, with th
 to launch a Theater specific campaign, with the successful campaigns more than doubling those that failed.** Conversely
 October-January has the closest margin for failure, with December in particular being more likely to fail or be
 cancelled than to succeed.
-- **The likelihood of having of Failure is never more than the Success rate**
+- **The likelihood of Failure is never more than the Success rate**
 At no point during the course of the year is your campaign likely to be cancelled, in fact the rate of cancelation
 never rises over 10%. This tells us that Theater Kickstarters regardless of launch date with will either be
 successful or they wont, and while that binary is stark it provides some comfort in that even youre never more likely
