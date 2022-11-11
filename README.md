@@ -20,7 +20,7 @@ in the way of useable analysis, with a chart that had flipped axis, more tuning 
 Conversion got put into the right spots in Columns and Rows respectively. With the Parent Category and Years being used as
 the filters, I was able to successfully create a meaningful table with a correspondingly useful graph. Seen below:
 
-![This is an image that shows the outcomes of Kickstarter campaigns based on the month that they are launched] (resources/Theater_Outcomes_vs_Launch.png)
+![This is an image that shows the outcomes of Kickstarter campaigns based on the month that they are launched] (https://github.com/dh4rt/kickstarter-analysis/blob/239784addbc03e8106e74dd4f5c5d26c45da0932/resources/Theater_Outcomes_vs_Launch.png)
 
 This graph indicates a number of trends that should be considered when launching a campaign.  The worst months to
 start a campaign are November and December. The reasons for this are not totally clear but I believe it is a 
@@ -48,7 +48,7 @@ Eventually what I did when I was able to get the Number Successful column workin
 table and adjust for Failed and Canceled while still having the coding for the different tiers still be operational. This
 image can be seen below:
 
-![This image shows a graph depicting the percentage chance of success, failure, and cancelation of a Kickstarter campaign based on the financial goals] (resources/Outcome_vs_Goals.png)
+![This image shows a graph depicting the percentage chance of success, failure, and cancelation of a Kickstarter campaign based on the financial goals] (https://github.com/dh4rt/kickstarter-analysis/blob/239784addbc03e8106e74dd4f5c5d26c45da0932/resources/Outcomes_vs_Goals.png)
 
 This graph indicates a very shakey correlation between the financial goals and the likelihood of the campaign’s success.
 The first-tier goal <$1000 has the highest rate of success at 76% with $1000-$5000 having the second highest success rate at
